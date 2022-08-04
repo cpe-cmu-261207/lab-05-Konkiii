@@ -44,9 +44,9 @@ function addTodo(title, completed) {
     saveTodo();
   };
   //append todo to HTML...
-  div.append(span);
-  div.append(doneBtn);
-  div.append(deleteBtn);
+  div.appendChild(span);
+  div.appendChild(doneBtn);
+  div.appendChild(deleteBtn);
   todoCtn.prepend(div);
 
   div.onmouseover = () => {
